@@ -25,7 +25,7 @@ const loginUser = async(req,res) =>{
     res.json({success:false,message:"Error"})
   }
 }
-const createToken = ({id}) =>{
+const createToken = (id) =>{
   return jwt.sign({id},process.env.JWT_SECRET)
 }
 

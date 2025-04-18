@@ -1,0 +1,20 @@
+
+http://localhost:4000/api/cart/add
+
+
+
+http://localhost:4000/api/user/register
+{
+    "name":"Shalini Nath",
+    "email":"shalininath279@gmail.com",
+    "password":"12345678"
+}
+
+
+http://localhost:4000/api/user/login
+{
+    "email":"shalininath279@gmail.com",
+    "password":"12345678"
+}
+
+http://localhost:4000/api/cart/remove
