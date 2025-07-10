@@ -6,7 +6,7 @@
 }
 
 .navbar .logo{
-  width: 150px;
+  width: 260px;
 }
 
 .navbar-menu{
@@ -35,7 +35,7 @@
   position: absolute;
   min-height: 10px;
   min-width: 10px;
-  background-color: tomato;
+  background-color: #9D4EDD;
   border-radius: 5px;
   top: -8px;
   right: -8px;
@@ -82,7 +82,7 @@
   background-color: #fff2ef;
   padding: 12px 25px;
   border-radius: 4px;
-  border: 1px solid tomato;
+  border: 1px solid #9D4EDD;
   outline: 2px solid white;
   list-style: none;
 }
@@ -100,7 +100,7 @@
 }
 
 .nav-profile-dropdown li:hover{
-  color: tomato;
+  color: #9D4EDD;
 }
 
 @media (max-width:750px) {
